@@ -1,0 +1,66 @@
+            .SUBSCRIBE-button{
+                background-color: rgb(250, 0, 0);
+                color: white;
+                border: none;
+                padding-left: 16px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 16px;
+                border-radius: 2px;
+                cursor: pointer;
+                margin-right: 8px;
+                margin-left: 20px;
+                vertical-align: top;
+                transition: opacity 0.15s;
+            }
+        
+            .SUBSCRIBE-button:hover {
+                opacity: 0.7;
+            }
+            .SUBSCRIBE-button:active {
+                opacity: 0.4;
+            }
+            .JOIN-button{
+                background-color: white;
+                color: rgba(43, 43, 236, 0.932);
+                border-color: rgba(43, 43, 236, 0.932);
+                border-style: solid;
+                border-radius: 2px;
+                padding-left: 16px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-right: 16px;
+                cursor: pointer;
+                margin-left: 8px;
+                vertical-align: top;
+                transition: background-color 1s, 
+                    color 1s;
+            }
+        
+            .JOIN-button:hover{
+                background-color: rgba(43, 43, 236, 0.932);
+                color: white;
+            }
+            .JOIN-button:active {
+                opacity: 0.7;
+            }
+
+            .Tweet-button {
+                background-color: rgb(2, 158, 255);
+                color: white;
+                border: none;
+                border-radius: 18px;
+                padding-left: 16px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 16px;
+                font-weight: bold;
+                font-size: 15px;
+                cursor: pointer;
+                margin-left: 8px;
+                transition: box-shadow 0.15s;
+                vertical-align: top;
+            }
+            .Tweet-button:hover {
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+            }
